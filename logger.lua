@@ -14,7 +14,7 @@ local last_flush = tick()
 
 local function format_line(section, msg)
 	local time = os.date("%H:%M:%S")
-	local prefix = ("[monitor - %s]"):format(section)
+	local prefix = ("[monitor @ %s]"):format(section)
 
 	local adjusted_msg = msg:gsub("?", "D") 
 
