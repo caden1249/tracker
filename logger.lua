@@ -3,7 +3,7 @@ local HttpService = game:GetService("HttpService")
 -- constants
 local PREFIX_WIDTH = 20
 local TIME_WIDTH = 8
-local WEBHOOK = "https://ptb.discord.com/api/webhooks/1460018858709487780/PGnx8hqC2nW2io-hFEhX7x3yVRfMFxVKK9nOTJDH4yZgEf8jvDhO0bm_xiMWTYmEZ9AK"
+local WEBHOOK = "https://discord.com/api/webhooks/1460552513743749252/7UTjL7cc5VvLZoypZvXhuxzl_dJ4BjitGucFSyc1Vf-WcMFIqSVKamiGhP0uuE14oIY2"
 local FLUSH_INTERVAL = 5
 local BATCH_SIZE = 3
 local LINE_WIDTH = 112
